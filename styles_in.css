@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Lufga';
+        src: url('/fonts/Lufga-Regular.woff2') format('woff2');
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Lufga';
+        src: url('/fonts/Lufga-Light.woff2') format('woff2');
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Lufga';
+        src: url('/fonts/Lufga-SemiBold.woff2') format('woff2');
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Lufga';
+        src: url('/fonts/Lufga-Bold.woff2') format('woff2');
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+    }
+    body {
+        font-family: Lufga;
+        @apply antialiased text-primary-1;
+    }
+}
